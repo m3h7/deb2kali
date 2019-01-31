@@ -11,7 +11,7 @@ apt update
 apt -y install dirmngr git
 
 ### Add the Kali Linux GPG keys to aptitude ###
-apt-key adv --keyserver keyserver.ubuntu.com --recv-keys ED444FF07D8D0BF6
+apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys ED444FF07D8D0BF6
 
 ### Replace the Debian repos with Kali repos ###
 mv /etc/apt/sources.list /etc/apt/sources.list.debian
